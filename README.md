@@ -1,42 +1,48 @@
 # 🛠️ Remote Support Tools
 
-Este repositorio contiene scripts y configuraciones para ofrecer soporte técnico remoto.
+Este repositorio contiene scripts y configuraciones para ofrecer soporte técnico remoto de forma segura y eficiente.  
+Ideal para técnicos IT, administradores de sistemas y usuarios avanzados.
 
-## 📁 Contenido
+---
 
-### 📜 Scripts incluidos
-- `maintenance.sh`: script de mantenimiento básico para sistemas Linux.
-- `windows-cleanup.ps1`: limpieza y optimización para equipos Windows.
-- `remote-connect.md`: guía para conexión remota con RustDesk, AnyDesk y SSH.
+## 📂 Estructura del repositorio
 
-### 📚 Documentación
-- Guías paso a paso para ejecutar cada script.
-- Recomendaciones de seguridad para conexiones remotas.
-- Tips para automatizar tareas comunes de soporte.
+- `bash/`: Scripts para sistemas Linux
+- `powershell/`: Scripts para entornos Windows
+- `docs/`: Guías y documentación técnica
 
-## 🛠️ Cómo usar
+---
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/sigint007adm/remote-support-tools.git
-   ```
+## 🔧 Scripts incluidos
 
-2. Accede al script que necesites:
-   ```bash
-   cd remote-support-tools
-   ```
+- `rustdesk-installer.sh`: Instalación automatizada de RustDesk en Linux
+- `remote-monitor.ps1`: Monitoreo de procesos y uso de CPU en Windows
 
-3. Ejecuta con permisos adecuados:
-   - Linux: `sudo bash maintenance.sh`
-   - Windows: Ejecutar PowerShell como administrador y correr `windows-cleanup.ps1`
+---
 
-## 🔒 Seguridad
+## 📚 Documentación
+
+- `guia-soporte-remoto.md`: Explicación paso a paso para configurar y usar herramientas como RustDesk, AnyDesk y SSH
+
+---
+
+## 🔐 Seguridad
 
 Todos los scripts están diseñados para minimizar riesgos:
-- No recopilan datos personales.
-- No abren puertos ni modifican configuraciones críticas sin aviso.
-- Se recomienda revisar cada script antes de ejecutarlo.
+- No recopilan datos personales
+- No modifican configuraciones críticas sin aviso
+- Recomendación: revisar cada script antes de ejecutarlo
 
-🧠 Autor
+---
 
-Sigint007adm – Técnico IT Freelance 📧 sigint007adm@proton.me 📍 Madrid, España
+## 👨‍💻 Autor
+
+**Sigint007adm** – Técnico IT Freelance  
+📧 sigint007adm@proton.me  
+🐦 [Twitter](https://twitter.com/sigint007adm)
+
+---
+
+## 📄 Licencia
+
+MIT License
